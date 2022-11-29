@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pooja Fitness</title>
+</head>
+
+<link href="https://fonts.googleapis.com/css2?family=Alkalami&display=swap" rel="stylesheet">
+
+<style>
+    /* CSS Reset   */
+    body {
+
+        font-family: 'Alkalami', serif;
+        background-image: 332px;
+        margin: 0px;
+        padding: 20px;
+        background: url('https://avada.theme-fusion.com/gym/wp-content/uploads/sites/9/2015/05/trainer4.jpg');
+        background-repeat: no-repeat;
+        color: white;
+        background-size: 100%;
+
+    }
+
+
+    .left {
+        position: absolute;
+        display: inline-block;
+        left: 35px;
+        top: 20px;
+        /* border: 4px solid red; */
+    }
+
+    .mid {
+
+        display: block;
+        width: 35%;
+        margin: 20px auto;
+        /* for centre and give margin of top */
+        /* border: 4px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 4px solid gainsboro; */
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+
+    .navbar li {
+        display: inline-block;
+        /*  set them in a single line */
+        font-size: 18px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 23px 12px;
+    }
+
+    .navbar li a:hover {
+        color: grey;
+
+        padding: 23px 12px;
+    }
+
+    .navbar li a.active {
+        text-decoration: underline;
+
+    }
+
+    .left img {
+        width: 55px;
+        filter: invert(100%);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 15px 23px;
+        padding: 35px;
+        width: 33%;
+        border-radius: 20px;
+
+    }
+
+    .btn {
+        margin: 0px 2px;
+        /*  to give margin horizontally */
+        background-color: black;
+        color: white;
+        padding: 4px 9px;
+        border: 2px solid white;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Alkalami', serif;
+
+
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .form-group input {
+        font-family: 'Alkalami', serif;
+        text-align: center;
+        display: block;
+        width: 250px;
+        /* width of input */
+        padding: 3px;
+        border: 2px solid black;
+        margin: 30px auto;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 250px;
+        margin: 20px auto;
+    }
+</style>
+
+
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="https://5.imimg.com/data5/ZQ/UK/SW/SELLER-87197778/gym-equipments-500x500.jpg" alt="">
+            Pooja Fitness
+        </div>
+        <!-- mid for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="$" class="active">Home</a></li>
+                <li><a href="$">About</a></li>
+                <li><a href="$">Fitness Calculator</a></li>
+                <li><a href="$">Contact us</a></li>
+
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call us Now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    </div>
+    <div class="container">
+
+
+        <h1>Join the best gym of a Noida now</h1>
+        <form action="noaction.php">
+            <!-- there will be no action on php as it need a backened -->
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your City">
+            </div>
+            <button class="btn">submit</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
